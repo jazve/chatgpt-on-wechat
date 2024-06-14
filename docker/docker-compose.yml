@@ -6,8 +6,9 @@ services:
     security_opt:
       - seccomp:unconfined
     environment:
-      OPEN_AI_API_KEY: 'YOUR API KEY'
-      MODEL: 'gpt-3.5-turbo'
+      OPEN_AI_API_KEY: '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'
+      MODEL: 'microsoft/wizardlm-2-8x22b'
+      OPEN_AI_API_BASE: 'https://openrouter.ai/api/v1'
       PROXY: ''
       SINGLE_CHAT_PREFIX: '["bot", "@bot"]'
       SINGLE_CHAT_REPLY_PREFIX: '"[bot] "'
